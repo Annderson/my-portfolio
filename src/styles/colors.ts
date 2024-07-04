@@ -1,0 +1,16 @@
+export default {
+  black: '#000000',
+  purple: '#532b88',
+  purpleDark: '#11001c',
+  purpleLight: '#f4effa',
+  purple19: '#190028',
+  purple22: '#220135',
+  purple2f: '#2f184b',
+  purple32: '#32004f',
+  purple3a: '#3a015c',
+  purple9b: '#9b72cf',
+  purpleC8: '#c8b1e4',
+  red: '#d90429',
+  yellow: '#ffe863',
+  white: '#ffffff',
+};
