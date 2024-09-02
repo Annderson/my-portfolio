@@ -11,6 +11,7 @@ import MeriendaLight from '@/assets/font/Merienda-Light.ttf';
 import MeriendaMedium from '@/assets/font/Merienda-Medium.ttf';
 import MeriendaRegular from '@/assets/font/Merienda-Regular.ttf';
 import MeriendaSemiBold from '@/assets/font/Merienda-SemiBold.ttf';
+import colors from './colors';
 
 export default createGlobalStyle`
     @font-face {
@@ -69,10 +70,20 @@ export default createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+
+        &::-webkit-scrollbar {
+            background-color: ${colors.purple}55;
+            width: 3px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: ${colors.purple};
+            border-radius: 5px;
+        }
     }
     
     body {
         font-family: 'Merienda-Regular';
+        overflow-x: hidden;
     }
 
     h1,
